@@ -551,7 +551,7 @@ textarea {
 /*  SUITABILITY SECTION                                           */
 /* ────────────────────────────────────────────────────────────── */
 .section--suitability {
-    background: var(--moss-dark);
+    background: #18261c;
     padding: 140px 0;
 }
 

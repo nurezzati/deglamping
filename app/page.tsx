@@ -42,7 +42,7 @@ export default function Home() {
           <div className="hero-bg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=1600&q=80&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1661109947213-d149233e22d6?w=1600&q=80&auto=format&fit=crop"
               alt="Forest glamping tent at dawn"
               className="hero-img"
             />
@@ -152,12 +152,12 @@ export default function Home() {
           <div className="gallery-scroll-wrapper" id="gallery-track-wrapper">
             <div className="gallery-track" id="gallery-track">
               {[
-                { src: 'https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?w=800&q=80&auto=format&fit=crop', alt: 'Luxury tent in the forest', caption: 'Canvas Lodge No. 3', cls: '' },
-                { src: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80&auto=format&fit=crop', alt: 'Forest lake at sunrise', caption: 'Morning Lake', cls: 'gallery-item--tall' },
+                { src: 'https://images.unsplash.com/photo-1624254495476-db6cc8b77e98?w=800&q=80&auto=format&fit=crop', alt: 'Luxury tent in the forest', caption: 'Canvas Lodge No. 3', cls: '' },
+                { src: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80&auto=format&fit=crop', alt: 'Forest lake at sunrise', caption: 'Morning Lake', cls: '' },
                 { src: 'https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?w=800&q=80&auto=format&fit=crop', alt: 'Campfire at glamping site', caption: 'Communal Fire', cls: '' },
-                { src: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80&auto=format&fit=crop', alt: 'Forest canopy aerial view', caption: 'The Canopy', cls: 'gallery-item--wide' },
+                { src: 'https://images.unsplash.com/photo-1721886473357-1563de6e6883?w=800&q=80&auto=format&fit=crop', alt: 'Forest canopy aerial view', caption: 'The Canopy', cls: 'gallery-item--wide' },
                 { src: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80&auto=format&fit=crop', alt: 'Interior of glamping tent', caption: 'Lodge Interior', cls: '' },
-                { src: 'https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?w=800&q=80&auto=format&fit=crop', alt: 'Outdoor forest bathing', caption: 'Copper Soaking Tub', cls: 'gallery-item--tall' },
+                { src: 'https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?w=800&q=80&auto=format&fit=crop', alt: 'Outdoor forest bathing', caption: 'Copper Soaking Tub', cls: '' },
                 { src: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=800&q=80&auto=format&fit=crop', alt: 'Forest trail through trees', caption: 'The Mossy Trail', cls: '' },
                 { src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80&auto=format&fit=crop', alt: 'Mountain sunrise glamping', caption: 'Sunrise at De Glamping', cls: '' },
               ].map(({ src, alt, caption, cls }) => (
